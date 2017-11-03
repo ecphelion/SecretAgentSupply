@@ -41,6 +41,8 @@ header span {
   padding: 0.75em 0;
 }
 
+/* END GENERAL AND HEADER */
+
 .main {
   background-image: url(moto.jpeg);
   background-repeat: no-repeat;
@@ -67,10 +69,12 @@ ul {
   padding: 0.75em 0;
 }
 
+/* END MAIN PICTURE AND NAVIGATION BAR */
+
 .products {
   display: flex;
   justify-content: space-between;
-  margin: 3em 0 0 0;
+  margin-top: 3em;
   width: 100%;
 }
 
@@ -96,4 +100,47 @@ ul {
   display: block;
   padding: 0.5em;
   text-align: center;
+}
+
+/* END PRODUCTS */
+
+.info {
+  margin-top: 3em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hloc {
+  width: 35%;
+}
+
+.info span {
+  background-color: black;
+  display: block;
+  padding: 0.5em;
+}
+
+#negative {
+  background-color: white;
+  color: black;
+}
+
+/* END BUSINESS INFO */
+
+footer {
+  height: 10em;
+  background-color: black;
+  margin-top: 3em;
+}
+
+footer span {
+  padding: 0.5em;
+  margin-top: 4em;
+}
+
+/* START MEDIA QUERIES */
+
+@media screen only and (max-width: 1024px) {
+  
 }
